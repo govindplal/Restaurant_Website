@@ -1,0 +1,102 @@
+[
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "id": "97c4bf9c-2605-405d-8987-34de7204694d",
+    "meta": {},
+    "state": {
+      "property": {
+        "styles": {
+          "color": "#000000ff",
+          "backgroundColor": "#ffffffff",
+          "paddingTop": "10px",
+          "paddingLeft": "25px",
+          "paddingBottom": "10px",
+          "paddingRight": "25px",
+          "fontSize": "16px",
+          "borderRadius": "50px",
+          "outline": "none",
+          "fontWeight": 500,
+          "textAlign": "center",
+          "borderWidth": "1px",
+          "borderStyle": "solid",
+          "borderColor": "#ccccccff",
+          "cursor": "pointer",
+          "userSelect": "none",
+          "outlineColor": "transparent",
+          "fontFamily": "DM Sans"
+        }
+      },
+      "parent": {
+        "id": "",
+        "index": 0
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/cssTree.js",
+    "childId": "97c4bf9c-2605-405d-8987-34de7204694d",
+    "refId": "523d3c4a-a2db-453b-9610-2a9ebf797552"
+  },
+  {
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "id": "d0cb193e-5c48-4ecf-b1bd-2922730515ba",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "custom": {
+          "text": "Book a table"
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/customPropsTree.js",
+    "childId": "d0cb193e-5c48-4ecf-b1bd-2922730515ba",
+    "refId": "523d3c4a-a2db-453b-9610-2a9ebf797552"
+  },
+  {
+    "id": "75418900-9166-47fb-a54b-7ff1968e1af7",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "meta": {},
+    "state": {
+      "parent": {
+        "id": "",
+        "index": 0
+      },
+      "property": {
+        "callbacks": {
+          "onClick": [
+            {
+              "sendEventData": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "LINK$$@atrilabs/app-design-forest/lib/callbackHandlerTree.js",
+    "refId": "523d3c4a-a2db-453b-9610-2a9ebf797552",
+    "childId": "75418900-9166-47fb-a54b-7ff1968e1af7"
+  },
+  {
+    "id": "523d3c4a-a2db-453b-9610-2a9ebf797552",
+    "type": "CREATE$$@atrilabs/app-design-forest/lib/componentTree.js",
+    "meta": {
+      "pkg": "@atrilabs/react-component-manifests",
+      "key": "Button",
+      "manifestSchemaId": "@atrilabs/react-component-manifest-schema"
+    },
+    "state": {
+      "parent": {
+        "id": "templateRoot",
+        "index": 0
+      },
+      "alias": "Button8"
+    }
+  }
+]
